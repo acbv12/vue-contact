@@ -1,4 +1,4 @@
-# vue-xlsx-table
+# vue-contact
 
 > vue联系人列表组件
 > 按首字母自动分类
@@ -21,15 +21,18 @@ npm install --save-dev vue-contact
 | Option           |  Default  | Description          |
 | ---------------- |:---------:|:--------------------:|
 | options          |    --     |base options          |
-demo:
-options: {
-    memberList: memberList,//your list
-    headPicUrl: "headPicUrl",//your keyword of headPicture
-    trueName: "trueName",//your keyword of name
-    mobileNum: "mobileNum",//your keyword of mobileNum
-    canCall: true,//do you need call icon
-    callIcon: "/static/images/call.png",//call icon image
-}
+
+## options:
+```
+  options: {
+      memberList: memberList,//your list
+      headPicUrl: "headPicUrl",//your keyword of headPicture
+      trueName: "trueName",//your keyword of name
+      mobileNum: "mobileNum",//your keyword of mobileNum
+      canCall: true,//do you need call icon
+      callIcon: "/static/images/call.png",//call icon image
+  }
+```
 
 # Events
 | Option           |   param   | Description                           |
@@ -47,4 +50,3 @@ npm install
 # serve with hot reload at localhost:8091
 npm run dev
 
-For detailed explanation on how things work, consult the [docs for vue-loader](http://vuejs.github.io/vue-loader).
